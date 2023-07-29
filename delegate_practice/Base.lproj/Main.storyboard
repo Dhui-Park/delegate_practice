@@ -71,7 +71,9 @@
                                 </constraints>
                                 <color key="tintColor" systemColor="systemGrayColor"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="작성 팝업 띄우기"/>
+                                <buttonConfiguration key="configuration" style="filled" title="작성 팝업 띄우기">
+                                    <color key="baseBackgroundColor" systemColor="systemGrayColor"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <action selector="onSubmitBtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Crh-qm-NAv"/>
                                 </connections>
@@ -86,6 +88,7 @@
                             <constraint firstItem="CTA-Gg-pqt" firstAttribute="trailing" secondItem="8Rt-tQ-jrc" secondAttribute="trailing" id="LT4-qc-I7R"/>
                             <constraint firstItem="c9V-qk-ynw" firstAttribute="top" secondItem="d5N-gW-QMY" secondAttribute="bottom" constant="20" id="MxG-LW-gEb"/>
                             <constraint firstItem="pvH-gz-mLb" firstAttribute="top" secondItem="GtW-QL-dTL" secondAttribute="bottom" constant="20" id="PE0-t7-VtO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8Rt-tQ-jrc" secondAttribute="trailing" constant="30" id="QIA-Rd-pjr"/>
                             <constraint firstItem="8Rt-tQ-jrc" firstAttribute="leading" secondItem="pvH-gz-mLb" secondAttribute="leading" id="QZ6-ag-TYc"/>
                             <constraint firstItem="CTA-Gg-pqt" firstAttribute="leading" secondItem="8Rt-tQ-jrc" secondAttribute="leading" id="TpZ-6R-SnM"/>
                             <constraint firstItem="CTA-Gg-pqt" firstAttribute="top" secondItem="8Rt-tQ-jrc" secondAttribute="bottom" constant="40" id="UPd-2N-Mug"/>

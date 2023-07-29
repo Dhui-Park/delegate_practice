@@ -33,7 +33,13 @@ class ViewController: UIViewController {
         
         let storyboard = UIStoryboard.init(name: "PopUp", bundle: nil)
         
+        let alertPopUpVC = storyboard.instantiateViewController(withIdentifier: "AlertPopUpVC")
         
+        alertPopUpVC.modalPresentationStyle = .overCurrentContext
+        
+        alertPopUpVC.modalTransitionStyle = .crossDissolve
+        
+        self.present(alertPopUpVC, animated: true)
     }
     
 }
