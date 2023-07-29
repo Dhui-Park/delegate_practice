@@ -10,8 +10,10 @@ import UITextView_Placeholder
 
 class ViewController: UIViewController {
 
+    // textView placeholder
     @IBOutlet weak var introduceTextView: UITextView!
     
+    // 작성 팝업 버튼
     @IBOutlet weak var submitBtn: UIButton!
     
     override func viewDidLoad() {
@@ -26,6 +28,13 @@ class ViewController: UIViewController {
         submitBtn.layer.cornerRadius = 8
     }
 
-
+    @IBAction func onSubmitBtnClicked(_ sender: UIButton) {
+        print(#fileID, #function, #line, "- onSubmitBtnClicked() called")
+        
+        let storyboard = UIStoryboard.init(name: "PopUp", bundle: nil)
+        
+        
+    }
+    
 }
 

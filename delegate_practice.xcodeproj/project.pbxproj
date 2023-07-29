@@ -15,6 +15,8 @@
 		B70202242A73859000D91F5E /* delegate_practice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B70202222A73859000D91F5E /* delegate_practice.xcdatamodeld */; };
 		B70202262A73859100D91F5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B70202252A73859100D91F5E /* Assets.xcassets */; };
 		B70202292A73859100D91F5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B70202272A73859100D91F5E /* LaunchScreen.storyboard */; };
+		B702025B2A73F41500D91F5E /* PopUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B702025A2A73F41500D91F5E /* PopUp.storyboard */; };
+		B702025D2A73F7F000D91F5E /* CustomPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B702025C2A73F7F000D91F5E /* CustomPopUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		B70202252A73859100D91F5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B70202282A73859100D91F5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B702022A2A73859100D91F5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B702025A2A73F41500D91F5E /* PopUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PopUp.storyboard; sourceTree = "<group>"; };
+		B702025C2A73F7F000D91F5E /* CustomPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPopUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +54,6 @@
 				0D5086A5C39A8CC38543CF16 /* Pods-delegate_practice.debug.xcconfig */,
 				50FDC35BB14B22B9E9625F98 /* Pods-delegate_practice.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -86,7 +89,9 @@
 				B70202192A73859000D91F5E /* AppDelegate.swift */,
 				B702021B2A73859000D91F5E /* SceneDelegate.swift */,
 				B702021D2A73859000D91F5E /* ViewController.swift */,
+				B702025C2A73F7F000D91F5E /* CustomPopUpViewController.swift */,
 				B702021F2A73859000D91F5E /* Main.storyboard */,
+				B702025A2A73F41500D91F5E /* PopUp.storyboard */,
 				B70202252A73859100D91F5E /* Assets.xcassets */,
 				B70202272A73859100D91F5E /* LaunchScreen.storyboard */,
 				B702022A2A73859100D91F5E /* Info.plist */,
@@ -158,6 +163,7 @@
 				B70202292A73859100D91F5E /* LaunchScreen.storyboard in Resources */,
 				B70202262A73859100D91F5E /* Assets.xcassets in Resources */,
 				B70202212A73859000D91F5E /* Main.storyboard in Resources */,
+				B702025B2A73F41500D91F5E /* PopUp.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +220,7 @@
 				B702021A2A73859000D91F5E /* AppDelegate.swift in Sources */,
 				B702021C2A73859000D91F5E /* SceneDelegate.swift in Sources */,
 				B70202242A73859000D91F5E /* delegate_practice.xcdatamodeld in Sources */,
+				B702025D2A73F7F000D91F5E /* CustomPopUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

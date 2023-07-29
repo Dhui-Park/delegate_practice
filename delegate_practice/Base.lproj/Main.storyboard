@@ -32,13 +32,13 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="한 줄 프로필" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c9V-qk-ynw">
-                                <rect key="frame" x="30" y="219" width="82" height="21"/>
+                                <rect key="frame" x="30" y="218" width="82" height="21"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="오늘도 빡코딩!" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GtW-QL-dTL">
-                                <rect key="frame" x="30" y="260" width="333" height="45"/>
+                                <rect key="frame" x="30" y="259" width="333" height="45"/>
                                 <color key="backgroundColor" systemColor="systemGray4Color"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="2QY-gd-7LO"/>
@@ -47,13 +47,13 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="자기소개" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pvH-gz-mLb">
-                                <rect key="frame" x="30" y="325" width="59" height="21"/>
+                                <rect key="frame" x="30" y="324" width="59" height="21"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8Rt-tQ-jrc" userLabel="introduceTextView">
-                                <rect key="frame" x="30" y="366" width="333" height="130"/>
+                                <rect key="frame" x="30" y="365" width="333" height="130"/>
                                 <color key="backgroundColor" systemColor="systemGray4Color"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="130" id="Myl-ym-7Th"/>
@@ -64,7 +64,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CTA-Gg-pqt">
-                                <rect key="frame" x="30" y="536" width="333" height="45"/>
+                                <rect key="frame" x="30" y="535" width="333" height="45"/>
                                 <color key="backgroundColor" systemColor="systemGrayColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="9Ny-De-ArN"/>
@@ -72,6 +72,9 @@
                                 <color key="tintColor" systemColor="systemGrayColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="작성 팝업 띄우기"/>
+                                <connections>
+                                    <action selector="onSubmitBtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Crh-qm-NAv"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -81,7 +84,7 @@
                             <constraint firstItem="pvH-gz-mLb" firstAttribute="leading" secondItem="GtW-QL-dTL" secondAttribute="leading" id="3ZD-Zi-fZS"/>
                             <constraint firstItem="GtW-QL-dTL" firstAttribute="leading" secondItem="c9V-qk-ynw" secondAttribute="leading" id="KHG-yZ-PBC"/>
                             <constraint firstItem="CTA-Gg-pqt" firstAttribute="trailing" secondItem="8Rt-tQ-jrc" secondAttribute="trailing" id="LT4-qc-I7R"/>
-                            <constraint firstItem="c9V-qk-ynw" firstAttribute="top" secondItem="d5N-gW-QMY" secondAttribute="bottom" constant="21" id="MxG-LW-gEb"/>
+                            <constraint firstItem="c9V-qk-ynw" firstAttribute="top" secondItem="d5N-gW-QMY" secondAttribute="bottom" constant="20" id="MxG-LW-gEb"/>
                             <constraint firstItem="pvH-gz-mLb" firstAttribute="top" secondItem="GtW-QL-dTL" secondAttribute="bottom" constant="20" id="PE0-t7-VtO"/>
                             <constraint firstItem="8Rt-tQ-jrc" firstAttribute="leading" secondItem="pvH-gz-mLb" secondAttribute="leading" id="QZ6-ag-TYc"/>
                             <constraint firstItem="CTA-Gg-pqt" firstAttribute="leading" secondItem="8Rt-tQ-jrc" secondAttribute="leading" id="TpZ-6R-SnM"/>
